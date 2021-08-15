@@ -1,0 +1,26 @@
+// Code adding the component to the parent container - not shown here
+//Recuerda que este código necesita dos variables globales para funcionar
+//Debes copiar estas variables antes del contructor de la clase
+// int fecha = 0;
+// boolean = false;
+
+// El jDateChooser1 debes cambiarlo por el que le pusiste a tu campo de fecha
+jDateChooser1.getDateEditor().addPropertyChangeListener(
+(PropertyChangeEvent evt) -> {
+
+        fecha++;
+        if(haIniciado != true){
+            //Esto se ejecuta al crear el JDataChooser 
+            if(fecha == 4){
+                haIniciado = true;
+                fecha = 0;
+            }
+        }
+        if(haIniciado == true){
+            if(fecha == 3){
+                fecha = 0;
+                //Aqui debajo debes ubicar el código ejecutar al cambiar la fecha
+
+            }
+        }    
+});
