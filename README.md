@@ -1,5 +1,5 @@
-# How to use it
-Reads and copies the file. You must right click on the JDateChooser, select the customize code option.. and paste the code you copied earlier there.
+# Cómo usar el parche para agregar ActionListener a un JDateChooser en java
+Lee y copia el código, luego debes dar clic derecho en el JDateChooser, seleccionar la opción Customize code... y pegar el código ahí. 
 
-## Author
-Powered by Gary Yaral.
+## Autor
+Código generado por Gary Yaral.
